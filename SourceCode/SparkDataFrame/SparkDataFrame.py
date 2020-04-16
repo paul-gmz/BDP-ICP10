@@ -4,7 +4,7 @@ import pyspark.sql.functions as f
 
 spark = SparkSession \
     .builder \
-    .appName("Python Spark SQL basic example") \
+    .appName("SparkDataFrame") \
     .getOrCreate()
 
 #Importing data and creating dataframe
